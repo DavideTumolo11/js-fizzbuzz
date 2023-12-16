@@ -1,0 +1,37 @@
+body {
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.box {
+    width: 70px;
+    aspect-ratio: 1;
+    border: 1px solid;
+    margin: 1px;
+    text-align: center;
+    line-height: 80px;
+}
+
+.boxFizzBuzz {
+    background-color: red;
+}
+
+.boxFizz {
+    background-color:darkorange;
+}
+
+.boxBuzz {
+    background-color: green;
+}
+
+.boxNull {
+    background-color: blue;
+}
